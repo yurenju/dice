@@ -5,9 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <div class="container">
+    <div class="container text-center">
+      <form class="form-inline actions">
+        <div class="form-group">
+          <div class="input-group">
+            <input type="number" class="dice-number form-control" value="1">
+            <div class="input-group-addon">顆骰子</div>
+          </div>
+        </div>
+        <a class="throw btn btn-primary">擲</a>
+      </form>
+
+      <div class="text-center dice-group">
+      </div>
+      <div class="result">
+        總共 <span class="total">1</span> 點
+      </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
