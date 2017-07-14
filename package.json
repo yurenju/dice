@@ -1,0 +1,21 @@
+{
+  "name": "dice",
+  "version": "1.0.0",
+  "description": "A demo project for cucumber.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node dev-server",
+    "test": "node test-runner"
+  },
+  "author": "Yuren Ju <yurenju@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "chromedriver": "^2.30.1",
+    "connect": "^3.6.2",
+    "cucumber": "^2.3.1",
+    "selenium-webdriver": "^3.4.0",
+    "serve-static": "^1.12.3",
+    "shelljs": "^0.7.8"
+  }
+}
